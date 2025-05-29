@@ -1137,8 +1137,8 @@ public:
 - If we inharit one abstruct class from another abstruct class, it is not nesseary to implement the abstruct method.
 
 ## Interface: 
-- In that case where all methods are abstruct , we can make interface.
-- For interface all methods are by default #public abstruct.
+- In that case where all methods are abstruct , we can make interface ***Before java8***.**After java 9 it is for multiple inharitance**.
+- For interface all methods are by default #public abstruct ***Before java8***.**now it contains both kind of methods**.
 - We cannot make instance of interface, it only used for hold reference.
 - if any class, try to implement any interface it must be define all the methods,, otherwise th class became abstruct class.
 - All the variable inside an interface by default static & final, so we need to initialized them immediately at declear time.
